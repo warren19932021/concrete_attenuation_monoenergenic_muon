@@ -15,6 +15,7 @@
 #/detector/TargetMaterial G4_Te
 #/track/secondaryNameContains Sb124
 
+
 /run/initialize
 
 # Set print progress and run parameters
