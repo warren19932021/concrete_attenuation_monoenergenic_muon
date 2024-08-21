@@ -45,7 +45,7 @@ void MuStoppedTrackingAction::PostUserTrackingAction(const G4Track* track)
 
         if((process->GetProcessName()).compare("muMinusCaptureAtRest")==0) 
         {     
-              G4cout<<"postStepPoint LogicalVolume Name: "<<postStepPoint->GetTouchableHandle()->GetVolume()->GetLogicalVolume()->GetName()<<G4endl;
+            //  G4cout<<"postStepPoint LogicalVolume Name: "<<postStepPoint->GetTouchableHandle()->GetVolume()->GetLogicalVolume()->GetName()<<G4endl;
              
               // Get the number of secondaries
               G4int nSecondaries = step->GetNumberOfSecondariesInCurrentStep();
