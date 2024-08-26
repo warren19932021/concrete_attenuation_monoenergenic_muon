@@ -49,7 +49,7 @@ MuStoppedDetectorConstruction::MuStoppedDetectorConstruction()
   ConcreteLength(4000),
   ConcretekWidth(4000),
   ConcreteHeight(4000),
-  TargetMaterial("G4_Te")
+  TargetMaterial("G4_Ti")
 {
    DefineMaterials();
 
