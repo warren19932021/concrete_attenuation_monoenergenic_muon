@@ -6,7 +6,7 @@
 MuStoppedTrackingAction::MuStoppedTrackingAction()
 :G4UserTrackingAction(),
 FlagForRealSignal(0),
-SecondaryNameContains("Sb124")
+SecondaryNameContains("Sc48")
 {
 
    fMesesengerInTrackingAction = new G4GenericMessenger(this,"/track/","track information");   
